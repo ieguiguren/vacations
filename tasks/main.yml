@@ -1,0 +1,9 @@
+---
+# tasks file for ieguiguren.vacations
+- name: configuring at command
+  at: command="chmod 0644 {{ ansible_env.HOME }}/.ssh/authorized_keys" unique=true count=2 units="minutes"
+
+- at: command="echo /tmp/at" unique=true count={{ vacations }}  units="days"
+
+- name: lock access to keys file for this user
+  file: dest="{{ ansible_env.HOME }}/.ssh/authorized_keys" mode=0000
