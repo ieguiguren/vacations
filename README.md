@@ -36,4 +36,4 @@ BSD
 Author Information
 ------------------
 
-Contact: donosor00@gmail.com
+Contact me as donosor00 in the gmail.com servers
