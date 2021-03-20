@@ -1,7 +1,7 @@
 Vacations
 =========
 
-After having my pals telling me for a week to stop working during holidays, I realize I needed a module to force me to halt. Thus, I created this role to lock you out of your systems for the vacations duration.
+After having my pals telling me for a week to stop working during holidays, I realized that I needed a module to force me to halt. Thus, I created this role to lock you out of your systems for the vacations duration.
 
 Requirements
 ------------
